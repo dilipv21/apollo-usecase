@@ -1,0 +1,22 @@
+{
+  "name": "gateway-server3",
+  "version": "2.0.1",
+  "description": "",
+  "scripts": {
+    "test": "jest --coverage",
+    "subgraphs": "node subgraphs/subgraph-sever-odi.js & node subgraphs/subgraph-sever-test.js & node subgraphs/subgraph-sever-t20.js",
+    "gateway": "node server-gateway"
+  },
+  "dependencies": {
+    "@apollo/gateway": "2.4.8",
+    "@apollo/subgraph": "^2.4.8",
+    "apollo-server": "3.6.1",
+    "fs": "0.0.1-security",
+    "graphql": "16.7.1",
+    "apollo-server-core": "3.6.6"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "publishConfig": {}
+}

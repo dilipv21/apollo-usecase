@@ -1,0 +1,14 @@
+federation_version: 2
+subgraphs:
+  test:
+    routing_url: http://localhost:3001
+    schema:
+      subgraph_url: http://localhost:3001
+  odi:
+    routing_url: http://localhost:3002
+    schema:
+      subgraph_url: http://localhost:3002
+  t20:
+    routing_url: http://localhost:3003
+    schema:
+      subgraph_url: http://localhost:3003

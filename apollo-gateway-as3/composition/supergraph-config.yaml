@@ -1,0 +1,13 @@
+subgraphs:
+  test:
+    routing_url: http://localhost:5001
+    schema:
+      subgraph_url: http://localhost:5001
+  odi:
+    routing_url: http://localhost:5002
+    schema:
+      subgraph_url: http://localhost:5002
+  t20:
+    routing_url: http://localhost:5003
+    schema:
+      subgraph_url: http://localhost:5003
